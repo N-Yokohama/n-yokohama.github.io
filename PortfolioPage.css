@@ -1,0 +1,351 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+}
+.Main{
+  background: linear-gradient(271deg, #00cfd4, #fe5c8d);
+  background-size: 400% 400%;
+  height: 700px;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+  position: relative;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+/* #Backimg{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+} */
+#MBAimg{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transition-duration: 1.5s;
+  transition-property: left;
+}
+.ScrollBar{
+  position: absolute;
+  background-color: #1a1a1a;
+  top: 108%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  height: 70px;
+  width: 1440px;
+  margin: auto;
+}
+.ScrollIcon{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.menu{
+  position: absolute;
+  /* background-color: whitesmoke; */
+  top: 6%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  height: 70px;
+  width: 1440px;
+  margin: auto;
+}
+/* .About:hover .Arrow{
+  left: -1570px;
+  background-color: #ff0063;
+}
+.Work:hover .Arrow{
+  left: -1050px;
+  background-color: #ff0063;
+}
+.Game:hover .Arrow{
+  left: -800px;
+  background-color: #ff0063;
+}
+.Design:hover .Arrow{
+  left: -570px;
+  background-color: #ff0063;
+}
+.Photo:hover .Arrow{
+  left: -340px;
+  background-color: #ff0063;
+}
+.Contact:hover .Arrow{
+  left: -20px;
+  background-color: #ff0063;
+}
+.Arrow{
+  position: absolute;
+  top: -200px;
+  right: 0px;
+  bottom: 0px;
+  left: -1570px;
+  margin: auto;
+  z-index: 4;
+  width: 170px;
+  height: 90px;
+  /* background-color: #00f2ff;
+  transition-duration: 1s;
+  transition-property: left;
+} */
+.About{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -875px;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+#AboutText{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: aliceblue;
+}
+.Work{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 270px;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+#WorkText{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  font-family: bd-viewmaster, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: dimgrey;
+}
+.Game{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 130px;
+  margin: auto;
+}
+.GameText{
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: aliceblue;
+}
+.Design{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 110px;
+  margin: auto;
+}
+.DesignText{
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: aliceblue;
+}
+.Photo{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 127px;
+  margin: auto;
+}
+.PhotoText{
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: aliceblue;
+}
+.Contact{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 200px;
+  margin: auto;
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: dimgray;
+}
+#AboutText:hover{
+  color: #fe5c8d;
+}
+/* #WorkText:hover{
+  color: #fe5c8d;
+} */
+.GameText:hover{
+ color: #fe5c8d;
+}
+.DesignText:hover{
+  color: #fe5c8d;
+}
+.PhotoText:hover{
+  color: #fe5c8d;
+}
+/* .Contact:hover{
+  color: #fe5c8d;
+} */
+#APimg{
+  position: absolute;
+  top: 1200px;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+#Skillimg{
+  position: absolute;
+  top: 1750px;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+#WorkBackimg{
+  position: absolute;
+  top: 2200px;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.WorkButtonBox{
+  position: relative;
+  top: 2250px;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  z-index: 10;
+  width: 1440px;
+  height: 260px;
+}
+.GameButton{
+  position: absolute;
+  left: 300px;
+  z-index: 10;
+}
+.DesignButton{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+}
+.PhotoButton{
+  position: absolute;
+  right : 300px;
+  z-index: 10;
+}
+.ButtonBack{
+  background-color: #fe5c8d;
+  width: 200px;
+  height: 260px;
+  border-radius: 25px;
+  z-index: 1;
+  position: absolute;
+  top: 6px;
+  left: 306px;
+}
+.ButtonBack1{
+  background-color: #fe5c8d;
+  width: 200px;
+  height: 260px;
+  border-radius: 25px;
+  z-index: 1;
+  position: absolute;
+  top: 6px;
+  left: 626px;
+}
+.ButtonBack2{
+  background-color: #fe5c8d;
+  width: 200px;
+  height: 260px;
+  border-radius: 25px;
+  z-index: 1;
+  position: absolute;
+  top: 6px;
+  right: 294px;
+}
+.GameButton:hover + .ButtonBack{
+ background-color: #009d9d;
+}
+.DesignButton:hover + .ButtonBack1{
+  background-color: #009d9d;
+}
+.PhotoButton:hover + .ButtonBack2{
+  background-color: #009d9d;
+ }
+.GameButton:active{
+  position: absolute;
+  top: 6px;
+  left: 306px;
+}
+.DesignButton:active{
+  position: relative;
+  top: 6px;
+  left: 626px;
+}
+.PhotoButton:active{
+  position: absolute;
+  top: 6px;
+  right: 294px;
+}
+/* .Trajectoryimg{
+  position: absolute;
+  top: -76px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+} */

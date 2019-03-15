@@ -1,0 +1,255 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.GamePage{
+  position: relative;
+  width: 1440px;
+  height: 4040px;
+}
+.ElectronDemoMovie{
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.label4{
+  position: absolute;
+  top: 88.5%;
+  left: 11.1%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  z-index: 2;
+}
+.yon{
+  position: absolute;
+  top: 93.5%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  z-index: 3;
+}
+.label4:hover{
+  z-index: 11;
+}
+.label4:hover + .yon{
+  z-index: 10;
+}
+.label5{
+  position: absolute;
+  top: 88.5%;
+  left: 19.1%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.go{
+  position: absolute;
+  top: 93.5%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.label5:hover{
+  z-index: 11;
+}
+.label5:hover + .go{
+  z-index: 10;
+}
+.label6{
+  position: absolute;
+  top: 88.5%;
+  left: 27.1%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.roku{
+  position: absolute;
+  top: 93.5%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.label6:hover{
+  z-index: 11;
+}
+.label6:hover + .roku{
+  z-index: 10;
+}
+.label7{
+  position: absolute;
+  top: 88.5%;
+  left: 35.1%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.nana{
+  position: absolute;
+  top: 93.5%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.label7:hover{
+  z-index: 11;
+}
+.label7:hover + .nana{
+  z-index: 10;
+}
+.label8{
+  position: absolute;
+  top: 88.5%;
+  left: 43.1%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.hati{
+  position: absolute;
+  top: 93.5%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.label8:hover{
+  z-index: 11;
+}
+.label8:hover + .hati{
+  z-index: 10;
+}
+.menu{
+  position: absolute;
+  /* background-color: whitesmoke; */
+  top: 6%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  height: 70px;
+  width: 1440px;
+  margin: auto;
+}
+.About{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -875px;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+#AboutText{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: aliceblue;
+}
+.Work{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 270px;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+#WorkText{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  font-family: bd-viewmaster, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: dimgrey;
+}
+.Game{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 130px;
+  margin: auto;
+}
+.GameText{
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: aliceblue;
+}
+.Design{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 110px;
+  margin: auto;
+}
+.DesignText{
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: aliceblue;
+}
+.Photo{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 127px;
+  margin: auto;
+}
+.PhotoText{
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: aliceblue;
+}
+.Contact{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 200px;
+  margin: auto;
+  font-family: bd-viewmaster,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  height: 50px;
+  color: dimgrey;
+}
+#AboutText:hover{
+  color: #fe5c8d;
+}
+/* #WorkText:hover{
+  color: #fe5c8d;
+} */
+.GameText:hover{
+ color: #fe5c8d;
+}
+.DesignText:hover{
+  color: #fe5c8d;
+}
+.PhotoText:hover{
+  color: #fe5c8d;
+}
+/* .Contact:hover{
+  color: #fe5c8d;
+} */
