@@ -150,7 +150,7 @@
   font-size: 25px;
   color: aliceblue;
 }
-.Work{
+/* .Work{
   position: absolute;
   top: 0px;
   right: 0px;
@@ -172,13 +172,13 @@
   font-style: normal;
   font-size: 25px;
   color: dimgrey;
-}
+} */
 .Game{
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 130px;
+  left: 340px;
   margin: auto;
 }
 .GameText{
@@ -226,7 +226,7 @@
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 200px;
+  left: 300px;
   margin: auto;
   font-family: bd-viewmaster,sans-serif;
   font-weight: 400;
