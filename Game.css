@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+}
+body > div{
+  background-image: url(4x/Grid-Black50-Full@4x.png);
+  background-size: cover;
+}
+header{
+  width: 100%;
+  height: 9vh;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+ul > li{
+	display: inline-block;
+}
+ul > li > a{
+  padding: 15px 30px;
+  display: block;
+}
+ul > li:hover > a{
+	background-color: white;
+  color: #444;
+  text-decoration: none;
+}
+ul li ul li{
+	display: block;
+}
+ul li ul{
+	position: absolute;
+	top: 95%;
+	left: 31%;
+}
+ul li ul li a{
+	background-color: white;
+  color: black;
+  text-decoration: none;
+}
+ul li ul li a:hover{
+  background-color: white;
+  color: steelblue;
+}
+.Menu ul li ul{
+	position: absolute;
+	top: -1000px;
+}
+.Menu ul li:hover ul{
+	transform: translateY(1055px);
+}
+/* .Menu ul li ul{
+  display: none;
+}
+.Menu ul li:hover ul{
+	display: block;
+} */
+Main{
+  scroll-behavior: smooth;
+  z-index: 1;
+}
+.TitleMiniImg{
+  height: auto;
+  width: 10vw;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%) translateX(-50%);
+  font-family: din-2014, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.MenuBar{
+  position: absolute;
+  right: 5vw;
+  top: 0.5vh;
+}
+.MenuBar ul li  {
+  padding-left: 1vw;
+}
+.ProfileText a{
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vw;
+  letter-spacing: 0.5px;
+  color: black;
+  text-decoration: none;
+}
+.WorkText a{
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vw;
+  letter-spacing: 0.5px;
+  color: black;
+  text-decoration: none;
+}
+.ContactText a{
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 1.3vw;
+  letter-spacing: 0.5px;
+  color: black;
+  text-decoration: none;
+}
+main{
+  position: relative;
+}
+main > div{
+  display: inline-block;
+  width: 49%;
+}
+.LogoImg{
+  width: 100%;
+  height: 100%;
+}
+.Text{
+  position: absolute;
+  top: 0vh;
+}
+.Text div div p {
+  font-family: din-2014, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+  padding-left: 2vw;
+}
+.Text div p {
+  font-family: din-2014, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 　5px;
+  color: white;
+  padding-left: 2vw;
+}
+.Title{
+  font-family: din-2014, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+  padding-top: 1vh;
+}
+.Hano div{
+  display: inline-block;
+}
+.HanoText{
+  position: absolute;
+  top: 85%;
+}
+.WorksText{
+  position: absolute;
+  left: 20%;
+  top: 85%;
+}
+.RosyText{
+  position: absolute;
+  top: 165%;
+}
+.RosyWorksText{
+  position: absolute;
+  left: 20%;
+  top: 165%;
+}
+.Explain{
+  position: absolute;
+  top: 215%;
+}
+video{
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+}
+.Movie  div{
+  display: inline-block;
+  width: 49%;
+  height: 70%;
+}
+.MovieText{
+  font-family: din-2014, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10px;
+  color: white;
+}
