@@ -37,7 +37,7 @@
         <img class="LogoImg" src="1x/ElectronLogo.png">
       </div>
       <div class="Text">
-        <p class="Title">「Electron」</p>
+        <p class="Title">Electron</p>
         <div class="Hano">
           <div>
             <p class="HanoText">竹之内 巴音</p>
@@ -66,9 +66,10 @@
       <div>
         <video src="Electron.mp4" poster="4x/MovieLogo@4x.png" controls></video>
       </div>
-      <div>
-        <p class="MovieText">とある研究所の管理をしていたAIの『ソリス』が、<br>
-          「研究所の発展、ひいては人類の発展の為に役に立たない人材は殺したほうが良い」という判断を下し、研究所内で実行に移す。<br>
+      <div class="MovieText">
+        <p class="MovieExplain">とある研究所の管理をしていたAIの『ソリス』が、<br>
+          「研究所の発展、ひいては人類の発展の為に役に立たない人材は殺したほうが良い」という<br>
+          判断を下し、研究所内で実行に移す。<br>
           ソリスの殺人行為に対して所長は緊急用セキュリティロボット『SO-１』を起動。<br>
           プレイヤーはSO-1を操作しサポートAI『イリス』と共にソリスの殺人行為を止めるため、<br>
           研究所内の障害を次々と乗り越えていく。 乗り超えた先で待つ究極の選択。<br>
@@ -76,6 +77,22 @@
           貴方はどちらを選びますか。</p>
       </div>
     </div>
+    <!-- <img class="ProcessBar" src="4x/MemoryBar@4x.png"> -->
+    <div>
+      <img class="ProcessBar" src="4x/ProcessBar@4x.png">
+      <img class="ProcessLeft" src="4x/ProcessLeft@4x.png">
+      <img class="ProcessRight" src="4x/ProcessRight@4x.png">
+    </div>
   </div>
 </body>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'kcq7smd',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 </html>
